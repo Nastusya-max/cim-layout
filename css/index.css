@@ -1,0 +1,52 @@
+/* #region Global */
+:root {
+  /* Pallete */
+  --palette-white: #fff;
+  --palette-black: #000000;
+  --palette-downriver: #0d274d;
+  --palette-mine-shaft: #282828;
+  --palette-japanese-laurel: #0e9a0b;
+  --palette-cerulean: #00bceb;
+  --palette-cerulean-lighter: #00bbea;
+
+  /* Fonts */
+  --text-font-family: Arial, Helvetica, sans-serif;
+  --heading-font-family: Arial, Helvetica, sans-serif;
+
+  /* Text */
+  --text-color: var(--palette-mine-shaft);
+  --heading-color: var(--palette-white);
+  --price-color: var(--palette-japanese-laurel);
+  --border-color: var(--palette-cerulean);
+  --accent-text-color: var(--palette-white);
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--palette-white);
+  font-family: var(--text-font-family);
+  color: var(--text-color);
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  max-width: 728px; /* 1440px */
+  padding: 3.75rem; /* 60px */
+  margin: 0 auto;
+}
+/* #endregion */
