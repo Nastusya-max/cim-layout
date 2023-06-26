@@ -8,102 +8,141 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header></header>
     <main class="container">
+        <h1 class="visually-hidden">Тариф на бурение скважин</h1>
         <section class="section products__section">
-            <ul class="products__list">
+            <ul class="products__list" role="list">
                 <li class="products__item">
                     <article class="article product-card">
                         <header class="product-card__header">
-                            <h2 class="product-card__heading heading heading--xl">Скважина на песок</h2>
+                            <h2 id="product_heading_1" class="product-card__heading heading heading--xl">Скважина на
+                                песок</h2>
                         </header>
-                        <div class="product-card__info">
-                            <ul class="product-advantages__list">
-                                <li class="product-advantages__item">Бюджетная стоимость</li>
-                                <li class="product-advantages__item">Простота и быстрое изготовление</li>
-                            </ul>
+                        <section class="product-info__container">
+                            <div class="product-card__info">
+                                <ul class="product-advantages__list" role="list">
+                                    <li class="product-advantages__item"><span class="product-advantages__icon"></span>
+                                        Бюджетная стоимость
+                                    </li>
+                                    <li class="product-advantages__item"><span class="product-advantages__icon"></span>
+                                        Простота и быстрое изготовление
+                                    </li>
+                                </ul>
 
-                            <ul class="product-prices__list">
-                                <li class="product-prices__item">
-                                    <div class="product-price__description">Скважина на песок:</div>
-                                    <p><span class="product-price">2 500 </span>руб/метр</p>
+                                <ul class="product-prices__list" role="list">
+                                    <li class="product-prices__item">
+                                        <div class="product-price__description">Скважина на песок:</div>
+                                        <div><span class="product-price">2 500 </span>руб/метр</div>
+                                    </li>
+                                </ul>
+
+                            </div>
+                            <ul class="product-types__list" role="list">
+                                <li class="product-types__item"><a class="product-types__link" href=""> 10 метров</a>
+                                </li>
+                                <li class="product-types__item"><a class="product-types__link" href=""> 15 метров</a>
+                                </li>
+                                <li class="product-types__item"><a class="product-types__link" href=""> 20 метров</a>
+                                </li>
+                                <li class="product-types__item"><a class="product-types__link" href=""> 25 метров</a>
+                                </li>
+                                <li class="product-types__item"><a class="product-types__link" href=""> 30 метров</a>
                                 </li>
                             </ul>
-                        </div>
-
-                        <ul class="product-types__list">
-                            <li class="product-types__item"><a class="product-types__link" href="">10 метров</a></li>
-                            <li class="product-types__item"><a class="product-types__link" href="">15 метров</a></li>
-                            <li class="product-types__item"><a class="product-types__link" href="">20 метров</a></li>
-                            <li class="product-types__item"><a class="product-types__link" href="">25 метров</a></li>
-                            <li class="product-types__item"><a class="product-types__link" href="">30 метров</a></li>
-                        </ul>
-                        <div class="product-card__button button"><a href="">Посмотреть все глубины</a></div>
+                            <a class="product-card__button button" href="">Посмотреть все глубины</a>
+                        </section>
                     </article>
                 </li>
 
                 <li class="products__item">
                     <article class="article product-card">
                         <header class="product-card__header">
-                            <h2 class="product-card__heading heading heading--xl">Артезианская скважина</h2>
+                            <h2 id="product_heading_2" class="product-card__heading heading heading--xl">Артезианская
+                                скважина</h2>
                         </header>
-                        <div class="product-card__info">
-                            <ul class="product-advantages__list">
-                                <li class="product-advantages__item">Большой дебит скважины</li>
-                                <li class="product-advantages__item">Длительный срок эксплуатации</li>
-                            </ul>
+                        <section class="product-info__container">
+                            <div class="product-card__info">
+                                <ul class="product-advantages__list" role="list">
+                                    <li class="product-advantages__item"><span class="product-advantages__icon"></span>
+                                        Большой дебит скважины</li>
+                                    <li class="product-advantages__item"><span class="product-advantages__icon"></span>
+                                        Длительный срок эксплуатации</li>
+                                </ul>
 
-                            <ul class="product-prices__list">
-                                <li class="product-prices__item">
-                                    <div class="product-price__description">Артезианская скважина:</div>
-                                    <p><span class="product-price">2 000 </span>руб/метр</p>
+                                <ul class="product-prices__list" role="list">
+                                    <li class="product-prices__item">
+                                        <div class="product-price__description">Артезианская скважина:</div>
+                                        <div><span class="product-price">2 000 </span>руб/метр</div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <ul class="product-types__list" role="list">
+                                <li class="product-types__item"><a class="product-types__link" href="">50 метров</a>
+                                </li>
+                                <li class="product-types__item"><a class="product-types__link" href="">70 метров</a>
+                                </li>
+                                <li class="product-types__item"><a class="product-types__link" href="">120
+                                        метров</a>
+                                </li>
+                                <li class="product-types__item"><a class="product-types__link" href="">150
+                                        метров</a>
                                 </li>
                             </ul>
-                        </div>
-
-                        <ul class="product-types__list">
-                            <li class="product-types__item"><a class="product-types__link" href="">50 метров</a></li>
-                            <li class="product-types__item"><a class="product-types__link" href="">70 метров</a></li>
-                            <li class="product-types__item"><a class="product-types__link" href="">120 метров</a></li>
-                            <li class="product-types__item"><a class="product-types__link" href="">150 метров</a></li>
-                        </ul>
-                        <div class="product-card__button button"><a href="">Посмотреть все глубины</a></div>
+                            <a class="product-card__button button" href="">Посмотреть все глубины</a>
+                        </section>
                     </article>
                 </li>
 
                 <li class="products__item">
                     <article class="article product-card">
                         <header class="product-card__header">
-                            <h2 class="product-card__heading heading heading--xl">Скважина мгбу</h2>
+                            <h2 id="product_heading_3" class="product-card__heading heading heading--xl">Скважина мгбу
+                            </h2>
                         </header>
-                        <div class="product-card__info">
-                            <ul class="product-advantages__list">
-                                <li class="product-advantages__item">Возможность бурения в труднодоступных местах</li>
-                            </ul>
+                        <section class="product-info__container">
+                            <div class="product-card__info">
+                                <ul class="product-advantages__list" role="list">
+                                    <li class="product-advantages__item"><span class="product-advantages__icon"></span>
+                                        Возможность бурения в труднодоступных местах
+                                    </li>
+                                </ul>
 
-                            <ul class="product-prices__list">
-                                <li class="product-prices__item">
-                                    <div class="product-price__description">Артезианская скважина Мгбу:</div>
-                                    <p><span class="product-price">2 800 </span>руб/метр</p>
+                                <ul class="product-prices__list" role="list">
+                                    <li class="product-prices__item">
+                                        <div class="product-price__description">Артезианская скважина Мгбу:</div>
+                                        <div><span class="product-price">2 800 </span>руб/метр</div>
+                                    </li>
+                                    <li class="product-prices__item">
+                                        <div class="product-price__description">Скважина на песок Мгбу:</div>
+                                        <div><span class="product-price">3 000 </span>руб/метр</div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <ul class="product-types__list" role="list">
+                                <li class="product-types__item"><a class="product-types__link" href="">10 метров</a>
                                 </li>
-                                <li class="product-prices__item">
-                                    <div class="product-price__description">Скважина на песок Мгбу:</div>
-                                    <p><span class="product-price">3 000 </span>руб/метр</p>
+                                <li class="product-types__item"><a class="product-types__link" href="">30 метров</a>
+                                </li>
+                                <li class="product-types__item"><a class="product-types__link" href="">50 метров</a>
+                                </li>
+                                <li class="product-types__item"><a class="product-types__link" href="">100
+                                        метров</a>
+                                </li>
+                                <li class="product-types__item"><a class="product-types__link" href="">150
+                                        метров</a>
                                 </li>
                             </ul>
-                        </div>
-
-                        <ul class="product-types__list">
-                            <li class="product-types__item"><a class="product-types__link" href="">10 метров</a></li>
-                            <li class="product-types__item"><a class="product-types__link" href="">30 метров</a></li>
-                            <li class="product-types__item"><a class="product-types__link" href="">50 метров</a></li>
-                            <li class="product-types__item"><a class="product-types__link" href="">100 метров</a></li>
-                            <li class="product-types__item"><a class="product-types__link" href="">150 метров</a></li>
-                        </ul>
-                        <div class="product-card__button button"><a href="">Посмотреть все глубины</a></div>
+                            <a class="product-card__button button" href="">Посмотреть все глубины</a>
+                        </section>
                     </article>
                 </li>
             </ul>
